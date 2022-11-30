@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(PG1_P2_A7 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(PG1_P2_A7 main.cpp)
+
+install(TARGETS PG1_P2_A7
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
